@@ -1,4 +1,4 @@
-import Counter from "./components/Counter";
+import MyCounter from "./components/MyCounter";
 import MyGitHub from "./components/MyGitHub";
 
 function App() {
@@ -10,9 +10,10 @@ function App() {
       <h2>
         Jack Brown - g39m245
       </h2>
-
       <hr />
-      <Counter /><hr />
+
+      <MyCounter incBy={1} /><hr />
+      <MyCounter incBy={2} /><hr />
       <MyGitHub /><hr />
 
     </div>
